@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family:'Poppins',sans-serif;
+}
+
+body
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url("images/logo.jpg");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+.container
+{
+width:330px;
+background:#fff;
+border-radius: 5px;
+text-align: center;
+padding: 50px 35px 10px 35px;
+}
+.container header
+{
+font-size: 35px;
+font-weight: 600;
+margin:0 0 30px 0;
+}
+.container .form-outer
+{
+  width: 100%;
+ 
+
+}
+.form-outer form
+{
+
+width:400%;
+}
+.form-outer form .page
+{
+  width: 25%;  
+
+}
+.form-outer form .page .title{
+
+  text-align: left;
+  font-size: 25;
+  font-weight: 500;
+}
+
+.form-outer form .page .field{
+  height:45px;
+  width:330px;
+  margin:45px 0;
+  display:flex;
+  position: relative;
+}
+.form-outer form .page .field .label{
+  position: relative;
+  top:-30px;
+  font-weight: 500;
+}
+.form-outer form .page .field input{
+  height: 100%;
+  width: 100%;
+  border:1px solid lightgrey;
+  border-radius:5px;
+  font-size:18px;
+  padding-left:15px;
+
+}
+form .page .field select{
+  width: 100%;
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius:5px;
+  border:1px solid lightgrey;
+}
+
+.form-outer form .page .field button{
+  width: 100%;
+  height: calc(100% + 5px);
+  margin-top:-20px;
+  background-color: #f15757;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+.form-outer form .page .field button:hover{
+  opacity: 1;
+}
+.form-outer form .page .btns button{
+margin-top:-20px!important;
+}
+form .page .btns button .prev
+{
+  margin-right:3px;
+  font-size:17px;
+}
+form .page .btns button .apply
+{
+  margin-left:3px;
+  font-size:17px;
+}
